@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36" version="29.2.2">
   <diagram name="Page-1" id="dIFm4RMWjNxdpFWlD_hj">
-    <mxGraphModel dx="2084" dy="1122" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="992" dy="534" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -486,6 +486,17 @@
             <mxPoint x="11" y="2" as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="UK8OYjiUUpGdVBNcNY1P-87" edge="1" parent="UK8OYjiUUpGdVBNcNY1P-118" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="206" y="100.5" as="sourcePoint" />
+            <mxPoint x="376.75" y="100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UK8OYjiUUpGdVBNcNY1P-133" connectable="0" parent="UK8OYjiUUpGdVBNcNY1P-87" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&lt;i&gt;refresh the&amp;nbsp;&lt;br&gt;mortgage deals&lt;/i&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.065" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="UK8OYjiUUpGdVBNcNY1P-124" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
             <mxPoint x="2460" y="315" as="sourcePoint" />
@@ -510,17 +521,6 @@
         </mxCell>
         <mxCell id="UK8OYjiUUpGdVBNcNY1P-76" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="[else]" vertex="1">
           <mxGeometry height="25" width="40" x="1730" y="386.875" as="geometry" />
-        </mxCell>
-        <mxCell id="UK8OYjiUUpGdVBNcNY1P-87" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
-          <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="1940" y="390" as="sourcePoint" />
-            <mxPoint x="2099" y="390" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="UK8OYjiUUpGdVBNcNY1P-133" connectable="0" parent="UK8OYjiUUpGdVBNcNY1P-87" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&lt;i&gt;refresh the&amp;nbsp;&lt;br&gt;mortgage deals&lt;/i&gt;" vertex="1">
-          <mxGeometry relative="1" x="-0.065" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
         </mxCell>
         <mxCell id="UK8OYjiUUpGdVBNcNY1P-146" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
@@ -685,7 +685,7 @@
         </mxCell>
         <mxCell id="UbGfkSkx65sa6wPIH3vq-16" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;rounded=0;" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="670" y="1410" as="sourcePoint" />
+            <mxPoint x="670" y="1400" as="sourcePoint" />
             <mxPoint x="670" y="1355" as="targetPoint" />
           </mxGeometry>
         </mxCell>
@@ -771,6 +771,306 @@
         <mxCell id="UbGfkSkx65sa6wPIH3vq-46" connectable="0" parent="UbGfkSkx65sa6wPIH3vq-45" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="updating&amp;nbsp; Customer Data&lt;div&gt;&lt;br/&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry relative="1" x="0.0411" y="-1" as="geometry">
             <mxPoint x="-4" y="-16" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UbGfkSkx65sa6wPIH3vq-48" parent="1" style="rounded=1;whiteSpace=wrap;html=1;rotation=90;fillColor=#a20025;strokeColor=#6F0000;fontColor=#ffffff;" value="" vertex="1">
+          <mxGeometry height="30" width="420" x="753" y="1272.5" as="geometry" />
+        </mxCell>
+        <mxCell id="UbGfkSkx65sa6wPIH3vq-51" parent="1" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 8;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#ffffff;" value="&#xa;&lt;p dir=&quot;auto&quot; style=&quot;white-space: pre-wrap;&quot;&gt;API Gateway&lt;/p&gt;&#xa;&#xa;" vertex="1">
+          <mxGeometry height="60" width="120" x="1185.5" y="1012.5" as="geometry" />
+        </mxCell>
+        <mxCell id="UbGfkSkx65sa6wPIH3vq-52" parent="1" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 8;fillColor=#b0e3e6;strokeColor=#0e8088;" value="&lt;p dir=&quot;auto&quot; style=&quot;white-space-collapse: preserve;&quot;&gt;Client Service&lt;/p&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="1368.63" y="1012.5" as="geometry" />
+        </mxCell>
+        <mxCell id="UbGfkSkx65sa6wPIH3vq-53" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=#a20025;strokeColor=#6F0000;fontColor=#ffffff;" value="staff" vertex="1">
+          <mxGeometry height="70" width="40" x="943" y="980" as="geometry" />
+        </mxCell>
+        <mxCell id="UbGfkSkx65sa6wPIH3vq-54" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" target="UbGfkSkx65sa6wPIH3vq-53" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="963" y="1490" as="sourcePoint" />
+            <mxPoint x="1343" y="1300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UbGfkSkx65sa6wPIH3vq-58" parent="1" style="rounded=1;whiteSpace=wrap;html=1;rotation=-90;fillColor=#b0e3e6;strokeColor=#0e8088;" value="" vertex="1">
+          <mxGeometry height="30" width="346.25" x="1255.5" y="1236.88" as="geometry" />
+        </mxCell>
+        <mxCell id="UbGfkSkx65sa6wPIH3vq-59" parent="1" style="rounded=1;whiteSpace=wrap;html=1;rotation=-90;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#ffffff;" value="" vertex="1">
+          <mxGeometry height="30" width="335" x="1085.5" y="1220" as="geometry" />
+        </mxCell>
+        <mxCell id="UbGfkSkx65sa6wPIH3vq-60" parent="1" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;" value="alt" vertex="1">
+          <mxGeometry height="100" width="382.5" x="923" y="1082.5" as="geometry" />
+        </mxCell>
+        <mxCell id="UbGfkSkx65sa6wPIH3vq-61" edge="1" parent="1" source="UbGfkSkx65sa6wPIH3vq-60" style="endArrow=none;dashed=1;html=1;rounded=0;exitX=0.002;exitY=0.504;exitDx=0;exitDy=0;exitPerimeter=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="1014.6200000000001" y="1170.21" as="sourcePoint" />
+            <mxPoint x="1255.5" y="1132.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UbGfkSkx65sa6wPIH3vq-62" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="[else]" vertex="1">
+          <mxGeometry height="20" width="40" x="923" y="1162.5" as="geometry" />
+        </mxCell>
+        <mxCell id="UbGfkSkx65sa6wPIH3vq-65" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;entryX=0.872;entryY=0.088;entryDx=0;entryDy=0;entryPerimeter=0;" target="UbGfkSkx65sa6wPIH3vq-59" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="962.5" y="1113.75" as="sourcePoint" />
+            <mxPoint x="1290.5" y="1111.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UbGfkSkx65sa6wPIH3vq-88" connectable="0" parent="UbGfkSkx65sa6wPIH3vq-65" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="login with password and username" vertex="1">
+          <mxGeometry relative="1" x="-0.1006" y="-2" as="geometry">
+            <mxPoint x="5" y="-12" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UbGfkSkx65sa6wPIH3vq-69" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;dashed=1;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="1255.5" y="1163.5" as="sourcePoint" />
+            <mxPoint x="962.5" y="1163" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UbGfkSkx65sa6wPIH3vq-70" connectable="0" parent="UbGfkSkx65sa6wPIH3vq-69" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="login fail" vertex="1">
+          <mxGeometry relative="1" x="0.0289" y="-3" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UbGfkSkx65sa6wPIH3vq-71" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="1255.5" y="1262.5" as="sourcePoint" />
+            <mxPoint x="965.5" y="1262.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UbGfkSkx65sa6wPIH3vq-72" connectable="0" parent="UbGfkSkx65sa6wPIH3vq-71" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=default;" value="&lt;i&gt;show staff dashboard + customer data&lt;/i&gt;" vertex="1">
+          <mxGeometry relative="1" x="0.1078" as="geometry">
+            <mxPoint x="24" y="-12" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UbGfkSkx65sa6wPIH3vq-75" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.456;entryY=1.014;entryDx=0;entryDy=0;entryPerimeter=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="1252.5" y="1492.5" as="sourcePoint" />
+            <mxPoint x="1252.52" y="1062.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UbGfkSkx65sa6wPIH3vq-77" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.456;entryY=1.014;entryDx=0;entryDy=0;entryPerimeter=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="1428.5" y="1492.5" as="sourcePoint" />
+            <mxPoint x="1428.0299999999997" y="1080" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UbGfkSkx65sa6wPIH3vq-78" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="1255.5" y="1366.25" as="sourcePoint" />
+            <mxPoint x="1425.5" y="1366.25" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UbGfkSkx65sa6wPIH3vq-79" connectable="0" parent="UbGfkSkx65sa6wPIH3vq-78" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&lt;font&gt;retrieving customer data&lt;/font&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.1055" y="2" as="geometry">
+            <mxPoint y="2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UbGfkSkx65sa6wPIH3vq-83" parent="1" style="rounded=1;whiteSpace=wrap;html=1;rotation=90;fillColor=#e6d0de;strokeColor=#996185;gradientColor=#d5739d;" value="" vertex="1">
+          <mxGeometry height="30" width="375" x="1388" y="1294.38" as="geometry" />
+        </mxCell>
+        <mxCell id="UbGfkSkx65sa6wPIH3vq-84" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="1420.5" y="1412.94" as="sourcePoint" />
+            <mxPoint x="1580.5" y="1412.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UbGfkSkx65sa6wPIH3vq-85" connectable="0" parent="UbGfkSkx65sa6wPIH3vq-84" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;" value="retrieving&amp;nbsp; exact&amp;nbsp;&lt;br&gt;customer information" vertex="1">
+          <mxGeometry relative="1" x="-0.1055" y="2" as="geometry">
+            <mxPoint y="2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UbGfkSkx65sa6wPIH3vq-86" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.456;entryY=1.014;entryDx=0;entryDy=0;entryPerimeter=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="1574.5" y="1487.5" as="sourcePoint" />
+            <mxPoint x="1574.9099999999999" y="1067.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UbGfkSkx65sa6wPIH3vq-168" parent="1" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;" value="alt" vertex="1">
+          <mxGeometry height="80" width="380" x="915.5" y="1232.5" as="geometry" />
+        </mxCell>
+        <mxCell id="UbGfkSkx65sa6wPIH3vq-169" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;rounded=0;exitX=0.002;exitY=0.504;exitDx=0;exitDy=0;exitPerimeter=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="963" y="1273.5" as="sourcePoint" />
+            <mxPoint x="1255.5" y="1273.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UbGfkSkx65sa6wPIH3vq-170" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="966.75" y="1215" as="sourcePoint" />
+            <mxPoint x="1245.5" y="1212.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UbGfkSkx65sa6wPIH3vq-171" connectable="0" parent="UbGfkSkx65sa6wPIH3vq-170" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Searching&amp;nbsp; customer data" vertex="1">
+          <mxGeometry relative="1" x="-0.1006" y="-2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UbGfkSkx65sa6wPIH3vq-177" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;dashed=1;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="1255.5" y="1299.5" as="sourcePoint" />
+            <mxPoint x="968" y="1299.31" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UbGfkSkx65sa6wPIH3vq-178" connectable="0" parent="UbGfkSkx65sa6wPIH3vq-177" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=default;" value="&lt;i&gt;no data has found error message&lt;/i&gt;" vertex="1">
+          <mxGeometry relative="1" x="0.1078" as="geometry">
+            <mxPoint x="24" y="-7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UbGfkSkx65sa6wPIH3vq-180" parent="1" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 8;fillColor=#e6d0de;strokeColor=#996185;gradientColor=#d5739d;" value="&lt;p dir=&quot;auto&quot; style=&quot;white-space-collapse: preserve;&quot;&gt;Database&lt;/p&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="1515.5" y="1007.5" as="geometry" />
+        </mxCell>
+        <mxCell id="UbGfkSkx65sa6wPIH3vq-56" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="1575.5" y="1472.5" as="sourcePoint" />
+            <mxPoint x="963" y="1473.22" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UbGfkSkx65sa6wPIH3vq-57" connectable="0" parent="UbGfkSkx65sa6wPIH3vq-56" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Request Approved&lt;br&gt;&lt;i&gt;&lt;font style=&quot;font-size: 8px;&quot;&gt;(customer information)&lt;/font&gt;&lt;/i&gt;" vertex="1">
+          <mxGeometry relative="1" x="0.1078" as="geometry">
+            <mxPoint x="-41" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UbGfkSkx65sa6wPIH3vq-187" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;p dir=&quot;auto&quot; style=&quot;white-space-collapse: preserve;&quot;&gt;&lt;font style=&quot;font-size: 22px;&quot;&gt;&lt;i&gt;&lt;font style=&quot;&quot;&gt;S&lt;/font&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;equence Diagram – Staff Member Retrieves Full Client Details&lt;/span&gt;&lt;/i&gt;&lt;/font&gt;&lt;/p&gt;" vertex="1">
+          <mxGeometry height="30" width="775" x="840" y="920" as="geometry" />
+        </mxCell>
+        <mxCell id="UbGfkSkx65sa6wPIH3vq-189" parent="1" style="rounded=1;whiteSpace=wrap;html=1;rotation=90;fillColor=#76608a;strokeColor=#432D57;fontColor=#ffffff;" value="" vertex="1">
+          <mxGeometry height="30" width="291.5" x="2210" y="1204" as="geometry" />
+        </mxCell>
+        <mxCell id="UbGfkSkx65sa6wPIH3vq-190" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;p dir=&quot;auto&quot; style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 22px; white-space-collapse: preserve;&quot;&gt;&lt;i&gt;The interaction of the system with the bank to retrieve the latest mortgage deals&lt;/i&gt;&lt;/span&gt;&lt;/p&gt;" vertex="1">
+          <mxGeometry height="30" width="782" x="1741" y="920" as="geometry" />
+        </mxCell>
+        <mxCell id="UbGfkSkx65sa6wPIH3vq-191" parent="1" style="rounded=1;whiteSpace=wrap;html=1;rotation=90;fillColor=#d80073;strokeColor=#A50040;fontColor=#ffffff;" value="" vertex="1">
+          <mxGeometry height="30" width="270" x="1648" y="1200" as="geometry" />
+        </mxCell>
+        <mxCell id="UbGfkSkx65sa6wPIH3vq-192" parent="1" style="rounded=1;whiteSpace=wrap;html=1;rotation=-90;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" value="" vertex="1">
+          <mxGeometry height="30" width="290.5" x="1792.75" y="1202.75" as="geometry" />
+        </mxCell>
+        <mxCell id="UbGfkSkx65sa6wPIH3vq-193" parent="1" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 8;fillColor=#0050ef;strokeColor=#001DBC;fontColor=#ffffff;" value="&lt;p dir=&quot;auto&quot; style=&quot;white-space-collapse: preserve;&quot;&gt;Mortgage Deal &lt;span style=&quot;background-color: transparent; color: light-dark(rgb(255, 255, 255), rgb(18, 18, 18));&quot;&gt; Bank Integration Service&lt;/span&gt;&lt;/p&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="1883" y="1012.5" as="geometry" />
+        </mxCell>
+        <mxCell id="UbGfkSkx65sa6wPIH3vq-195" parent="1" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 8;fillColor=#647687;strokeColor=#314354;fontColor=#ffffff;" value="&lt;p dir=&quot;auto&quot; style=&quot;white-space-collapse: preserve;&quot;&gt;Partner Bank External API&lt;/p&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="2110.75" y="1012.5" as="geometry" />
+        </mxCell>
+        <mxCell id="UbGfkSkx65sa6wPIH3vq-196" parent="1" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 8;fillColor=#76608a;strokeColor=#432D57;fontColor=#ffffff;" value="&lt;p dir=&quot;auto&quot; style=&quot;white-space-collapse: preserve;&quot;&gt;Database&lt;/p&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="2295.75" y="1015.25" as="geometry" />
+        </mxCell>
+        <mxCell id="UbGfkSkx65sa6wPIH3vq-197" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=#d80073;strokeColor=#A50040;fontColor=#ffffff;" value="Staff" vertex="1">
+          <mxGeometry height="70" width="40" x="1763" y="982.5" as="geometry" />
+        </mxCell>
+        <mxCell id="UbGfkSkx65sa6wPIH3vq-198" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" target="UbGfkSkx65sa6wPIH3vq-197" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="1783" y="1422.5" as="sourcePoint" />
+            <mxPoint x="2163" y="1302.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UbGfkSkx65sa6wPIH3vq-199" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.456;entryY=1.014;entryDx=0;entryDy=0;entryPerimeter=0;" target="UbGfkSkx65sa6wPIH3vq-193" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="1938" y="1422.5" as="sourcePoint" />
+            <mxPoint x="2093" y="1302.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UbGfkSkx65sa6wPIH3vq-200" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="2350" y="1323" as="sourcePoint" />
+            <mxPoint x="1780" y="1322.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UbGfkSkx65sa6wPIH3vq-201" connectable="0" parent="UbGfkSkx65sa6wPIH3vq-200" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="return the updated mortgage deals to the system" vertex="1">
+          <mxGeometry relative="1" x="0.1078" as="geometry">
+            <mxPoint x="-73" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UbGfkSkx65sa6wPIH3vq-202" parent="1" style="rounded=1;whiteSpace=wrap;html=1;rotation=-90;fillColor=#647687;strokeColor=#314354;fontColor=#ffffff;" value="" vertex="1">
+          <mxGeometry height="30" width="293" x="2024.25" y="1204" as="geometry" />
+        </mxCell>
+        <mxCell id="UbGfkSkx65sa6wPIH3vq-203" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="1940" y="1120" as="sourcePoint" />
+            <mxPoint x="2350" y="1120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UbGfkSkx65sa6wPIH3vq-204" connectable="0" parent="UbGfkSkx65sa6wPIH3vq-203" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;" value="retreving the lastest mortgage deals with date and time from database&amp;nbsp;" vertex="1">
+          <mxGeometry relative="1" x="-0.1055" y="2" as="geometry">
+            <mxPoint y="-10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UbGfkSkx65sa6wPIH3vq-205" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="1780" y="1100" as="sourcePoint" />
+            <mxPoint x="1930" y="1100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UbGfkSkx65sa6wPIH3vq-206" connectable="0" parent="UbGfkSkx65sa6wPIH3vq-205" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;Trigger&amp;nbsp; auto Refresh&amp;nbsp;&lt;/font&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.1055" y="2" as="geometry">
+            <mxPoint x="10" y="-8" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UbGfkSkx65sa6wPIH3vq-207" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.456;entryY=1.014;entryDx=0;entryDy=0;entryPerimeter=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="2170.16" y="1422.5" as="sourcePoint" />
+            <mxPoint x="2170.5699999999997" y="1072.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UbGfkSkx65sa6wPIH3vq-209" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.997;entryY=0.504;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.002;exitY=0.504;exitDx=0;exitDy=0;exitPerimeter=0;" target="UbGfkSkx65sa6wPIH3vq-210" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="1734.8599999999997" y="1208.0625" as="sourcePoint" />
+            <mxPoint x="2353" y="1206.9375" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UbGfkSkx65sa6wPIH3vq-210" parent="1" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;container=1;" value="alt" vertex="1">
+          <mxGeometry height="150" width="666" x="1734" y="1132.5" as="geometry" />
+        </mxCell>
+        <mxCell id="UbGfkSkx65sa6wPIH3vq-211" edge="1" parent="UbGfkSkx65sa6wPIH3vq-210" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="206" y="132.5" as="sourcePoint" />
+            <mxPoint x="625.6623711340205" y="132.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UbGfkSkx65sa6wPIH3vq-212" connectable="0" parent="UbGfkSkx65sa6wPIH3vq-211" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;" value="&lt;i&gt;update the mortgage deals&lt;br&gt;with latest price&lt;/i&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.1055" y="2" as="geometry">
+            <mxPoint x="11" y="2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UbGfkSkx65sa6wPIH3vq-213" edge="1" parent="UbGfkSkx65sa6wPIH3vq-210" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="622.2851546391752" y="30" as="sourcePoint" />
+            <mxPoint x="216" y="30.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UbGfkSkx65sa6wPIH3vq-214" connectable="0" parent="UbGfkSkx65sa6wPIH3vq-213" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;" value="return the last mortgage deals less than 2 hours old" vertex="1">
+          <mxGeometry relative="1" x="-0.1055" y="2" as="geometry">
+            <mxPoint x="-27" y="-9" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UbGfkSkx65sa6wPIH3vq-218" edge="1" parent="UbGfkSkx65sa6wPIH3vq-210" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="56" y="100" as="sourcePoint" />
+            <mxPoint x="436" y="100.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UbGfkSkx65sa6wPIH3vq-219" connectable="0" parent="UbGfkSkx65sa6wPIH3vq-218" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;" value="&lt;i&gt;refresh the&amp;nbsp;&lt;br&gt;mortgage deals&lt;/i&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.065" as="geometry">
+            <mxPoint x="32" y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UbGfkSkx65sa6wPIH3vq-215" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="1930" y="1182.5" as="sourcePoint" />
+            <mxPoint x="1780" y="1182.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UbGfkSkx65sa6wPIH3vq-216" connectable="0" parent="UbGfkSkx65sa6wPIH3vq-215" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="last mortgage deals" vertex="1">
+          <mxGeometry relative="1" x="-0.1055" y="2" as="geometry">
+            <mxPoint x="-11" y="-12" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UbGfkSkx65sa6wPIH3vq-217" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="[else]" vertex="1">
+          <mxGeometry height="25" width="40" x="1730" y="1229.375" as="geometry" />
+        </mxCell>
+        <mxCell id="UbGfkSkx65sa6wPIH3vq-222" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.456;entryY=1.014;entryDx=0;entryDy=0;entryPerimeter=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="2355.16" y="1426.88" as="sourcePoint" />
+            <mxPoint x="2355.5699999999997" y="1076.88" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
